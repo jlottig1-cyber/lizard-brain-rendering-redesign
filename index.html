@@ -117,13 +117,24 @@
 <style id="desktop-photo-corrections-0923">
 @media (min-width:901px){
   .hero .hero-grid{
-    grid-template-columns:minmax(0,.95fr) minmax(500px,1.05fr)!important;
-    column-gap:44px!important;
+    grid-template-columns:minmax(0,.965fr) minmax(500px,1.035fr)!important;
+    column-gap:24px!important;
+  }
+  .hero .hero-copy{
+    min-width:0!important;
+    position:relative!important;
+    z-index:2!important;
+  }
+  .hero .hero-copy h1{
+    font-size:clamp(50px,4.8vw,66px)!important;
+    max-width:100%!important;
   }
   .hero-photo.lbw-photo-host{
     width:100%!important;
     margin:28px 0!important;
     justify-self:stretch!important;
+    position:relative!important;
+    z-index:1!important;
   }
   .hero-photo.lbw-photo-host .lbw-one{
     width:100%!important;
