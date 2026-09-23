@@ -1,7 +1,14 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "headers": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "lbw-seo-step1-preview-0923.vercel.app"
+        }
+      ],
       "headers": [
         {
           "key": "X-Robots-Tag",
